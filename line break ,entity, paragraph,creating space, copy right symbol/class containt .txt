@@ -1,0 +1,2 @@
+1)  line break,entity, paragraph,creating space, copy right symbol
+2)  "br", "p","nbsp","&copy;" tags 

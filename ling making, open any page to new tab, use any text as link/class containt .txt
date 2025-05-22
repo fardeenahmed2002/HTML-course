@@ -1,0 +1,2 @@
+1)  ling making, open any page to new tab, use any text as link
+2)  "a herf" tags & "blank","title" attributes

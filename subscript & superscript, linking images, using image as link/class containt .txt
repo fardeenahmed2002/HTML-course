@@ -1,0 +1,2 @@
+1)  subscript & superscript, linking images, using image as link
+2)  "sub", "sup" tags 

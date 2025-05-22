@@ -1,0 +1,2 @@
+1)  bold italic underline 
+2)  "b" "i" "u" tags 

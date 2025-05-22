@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>form 2</title>
+</head>
+<body>
+	<h1>form elements</h1><br> <br>
+	
+	<form action="" autocomplete="off">
+		<label for="first_name">First name:</label> <br>
+		<input type="text" name="first_name" id="first_name" placeholder="first name" value="কিছু না" readonly> <br>
+		<label for="nick_name">nick name:</label> <br>
+		<input type="text" name="nick_name" id="nick_name" placeholder="nick name" disabled value="nothing"> <br>
+		
+		<label for="pet_name">pet name(not more then 6 words)</label> <br>
+		<input type="text" name="pet_name" id="pet_name" placeholder="pet name" maxlength="6" > <br>
+		
+		<label for="date">date</label> <br>
+		<input type="date" name="date" id="date" placeholder="date"> <br>
+		
+		<label for="color">color</label> <br>
+		<input type="color" name="color" id="color" placeholder="color"> <br>
+		
+		<label for="month">enter the month</label><br>
+		<select name="month" id="month" required>
+			<option value="">month</option>
+			<option value="january">january</option>
+			<option value="february">february</option>
+			<option value="march">march</option>
+			<option value="april">april</option>
+			<option value="may">may</option>
+			<option value="june">june</option>
+			<option value="july">july</option>
+			<option value="august">august</option>
+			<option value="september">september</option>
+			<option value="october">october</option>
+			<option value="november">november</option>
+			<option value="december">december</option><br> <br> <br> 
+		</select>
+		<br> <br> <br>
+		<label for="comments">give your comments</label><br>
+		<textarea name="comments" id="comments" cols="20" rows="10"></textarea>
+		<br>
+		<br>
+		<br>
+		<input type="submit" value="submit" name="submit">
+		
+			
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</form>
+	<br>
+	<br>
+	<br>
+	<br>
+	<h1>required দিয়ে তা   বাধ্যতামূলক করতে হয়, readonly দিয়ে ফিক্স করা লেখা মুছা যায় না। mexlength দিয়ে অক্ষরের নির্দিষ্টতা করা থাকে। disable দিয়ে কোন  field disable করা থাকে ফলে সেখানে আর লেখা যায় না autocomplete দিয়ে দেওয়া ডাটা আর দেখা যায় না।</h1>
+	
+	
+	
+	
+	
+	
+</body>
+</html>
